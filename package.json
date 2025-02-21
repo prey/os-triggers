@@ -1,0 +1,11 @@
+{
+  "name": "os-triggers",
+  "version": "0.1.4",
+  "description": "OS events listener and trigger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Acuña P.",
+  "license": "BSD"
+}
