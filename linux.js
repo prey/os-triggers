@@ -7,6 +7,12 @@ const EVENTS = {
       'StateChanged'       : ['network', 'state_changed']
     },
   },
+  wifi: {
+    opts: { interface: 'org.freedesktop.systemd1.Manager' },
+    events: {
+      'UnitRemoved'        : ['wifi', 'state_changed']
+    },
+  },
   power: {
     opts: {
       path: '/org/freedesktop/UPower/devices/line_power_ADP1',
